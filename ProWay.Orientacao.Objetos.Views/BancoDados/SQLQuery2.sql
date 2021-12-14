@@ -1,0 +1,1 @@
+﻿SELECT codigo, nome, saldo FROM ContasPoupanca

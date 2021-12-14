@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contas\" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProWay.OrientacaoObjetos.Models\ProWay.OrientacaoObjetos.Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,3 +1,5 @@
+using ProWay.Orientacao.Objetos.Views.Contas;
+
 namespace ProWay.Orientacao.Objetos.Views
 {
     internal static class Program
@@ -9,7 +11,8 @@ namespace ProWay.Orientacao.Objetos.Views
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormPrincipal());
+            //Application.Run(new FormPrincipal());
+            Application.Run(new FormContaPoupanca());
         }
     }
 }
