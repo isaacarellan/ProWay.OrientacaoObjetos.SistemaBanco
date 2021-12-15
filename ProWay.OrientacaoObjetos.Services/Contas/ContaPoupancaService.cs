@@ -10,7 +10,7 @@ namespace ProWay.OrientacaoObjetos.Services.Contas
     internal class ContaPoupancaService
     {   
 
-        public void Adicionar(ContaPopanca contaPoupanca)
+        public void Adicionar(ContaPoupanca contaPoupanca)
         {
 
         }

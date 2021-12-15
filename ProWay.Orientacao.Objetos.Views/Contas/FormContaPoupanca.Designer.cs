@@ -57,6 +57,7 @@
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
             this.dataGridView.RowTemplate.Height = 25;
+            this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.Size = new System.Drawing.Size(449, 469);
             this.dataGridView.TabIndex = 0;
             // 
@@ -107,6 +108,7 @@
             // 
             // textBoxCodigo
             // 
+            this.textBoxCodigo.Enabled = false;
             this.textBoxCodigo.Location = new System.Drawing.Point(494, 46);
             this.textBoxCodigo.Name = "textBoxCodigo";
             this.textBoxCodigo.Size = new System.Drawing.Size(419, 23);
@@ -144,6 +146,7 @@
             this.buttonApagar.TabIndex = 8;
             this.buttonApagar.Text = "Apagar";
             this.buttonApagar.UseVisualStyleBackColor = true;
+            this.buttonApagar.Click += new System.EventHandler(this.buttonApagar_Click);
             // 
             // buttonEditar
             // 
@@ -153,6 +156,7 @@
             this.buttonEditar.TabIndex = 9;
             this.buttonEditar.Text = "Editar";
             this.buttonEditar.UseVisualStyleBackColor = true;
+            this.buttonEditar.Click += new System.EventHandler(this.buttonEditar_Click);
             // 
             // FormContaPoupanca
             // 
